@@ -1,7 +1,5 @@
 ## Software Developer, Python Backend
 
-### Projects:
-
 #### [TodayWeatherBot](https://github.com/Arseniy-Popov/TodayWeatherBot)
 `Python` `PostgreSQL` `Google Geocoding API` `OpenWeatherMap API` `Heroku` `SQLAlchemy` `unittest` `python-telegram-bot` `pyrogram`
 * Telegram bot with a weather forecast for the day
