@@ -8,7 +8,6 @@ address inputs to geographic localities
 * employs `SQLAlchemy` as an ORM
 * applies `unittest` as a testing framework and `pyrogram` as Telegram API wrapper for integration testing allowing
 to test both the development version (with database and client resets between tests) and the deployed version 
-<br/>
 
 #### A blogging platform: [ThePost](https://github.com/Arseniy-Popov/ThePost) ####
 `Python` `Django` `Django REST Framework` `PostgreSQL`
