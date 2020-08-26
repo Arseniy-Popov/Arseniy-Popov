@@ -1,5 +1,5 @@
 #### Telegram bot with a weather forecast for the day: [TodayWeatherBot](https://github.com/Arseniy-Popov/TodayWeatherBot) ####
-`Python` `PostgreSQL` `Google Geocoding API` `OpenWeatherMap API` `Heroku` `SQLAlchemy` `unittest` `python-telegram-bot` `pyrogram`
+__`Python` `PostgreSQL` `Google Geocoding API` `OpenWeatherMap API` `Heroku` `SQLAlchemy` `unittest` `python-telegram-bot` `pyrogram`__
 * deployed to `Heroku` at [TodayWeatherBot](https://t.me/AMP_TodayWeatherBot)
 * built with `python-telegram-bot` as a wrapper around Telegram's API
 * utilizes `Google Geocoding API` to interpret free-form address input and `OpenWeatherMap API` to obtain weather forecasts
@@ -10,6 +10,6 @@ address inputs to geographic localities
 to test both the development version (with database and client resets between tests) and the deployed version 
 
 #### A blogging platform: [ThePost](https://github.com/Arseniy-Popov/ThePost) ####
-`Python` `Django` `Django REST Framework` `PostgreSQL`
+__`Python` `Django` `Django REST Framework` `PostgreSQL`__
 * Built with `Django`, `Django REST Framework`, `Bootstrap`, and `PostgreSQL`
 * ~~Deployed to [thepost.arseniypopov.com](https://thepost.arseniypopov.com/) via `AWS EC2` with `nginx` and `gunicorn`~~
