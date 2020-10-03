@@ -1,6 +1,11 @@
-## Pet Projects:
+## About Me
 
-#### 1. Backend API powering a Telegram bot with a weather forecast for the day: [TodayWeatherBot](https://github.com/Arseniy-Popov/TodayWeatherBot)
+Python Backend Software Developer looking for Junior/Middle-level positions.  
+__`Python` `Django` `Django REST Framework` `Flask` `PostgreSQL` `REST API` `pytest` `unittest` `Docker` `docker-compose` `AWS`__
+
+## Pet Projects
+
+### 1. Backend API powering a Telegram bot with a weather forecast for the day: [TodayWeatherBot](https://github.com/Arseniy-Popov/TodayWeatherBot)
 __`Python` `Flask` `PostgreSQL` `SQLAlchemy` `pytest` `unittest` `Google Geocoding API` `OpenWeatherMap API` `Docker` `docker-compose` `AWS EC2` `Heroku` `marshmallow` `python-telegram-bot` `pyrogram` `gunicorn` `nginx`__
 ###### About
 * backend API powering a Telegram bot with a weather forecast for the day
@@ -16,7 +21,7 @@ __`Python` `Flask` `PostgreSQL` `SQLAlchemy` `pytest` `unittest` `Google Geocodi
 * deployed to `AWS EC2` with `nginx` and `gunicorn`; containerized with `Docker` and `docker-compose`
 * the telegram bot is deployed to `Heroku`; built with `python-telegram-bot` as a wrapper around Telegram's API; uses `PostgreSQL` and `SQLAlchemy` for storing user's latest and default addresses; tested with `unittest`
 
-#### 2. A blogging platform: [ThePost](https://github.com/Arseniy-Popov/ThePost)
+### 2. A blogging platform: [ThePost](https://github.com/Arseniy-Popov/ThePost)
 __`Python` `Django` `Django REST Framework` `PostgreSQL`__
 * Built with `Django`, `Django REST Framework`, `Bootstrap`, and `PostgreSQL`
 * ~~Deployed to [thepost.arseniypopov.com](https://thepost.arseniypopov.com/) via `AWS EC2` with `nginx` and `gunicorn`~~
