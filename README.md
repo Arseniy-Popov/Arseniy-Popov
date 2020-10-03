@@ -1,7 +1,7 @@
 ## About Me
 
 Python Backend Software Developer looking for Junior/Middle-level positions.  
-__`Python` `Django` `Django REST Framework` `Flask` `PostgreSQL` `REST API` `pytest` `unittest` `Docker` `docker-compose` `AWS`__
+__`Python` `Django` `Django REST Framework` `Flask` `SQL` `Git` `Linux` `REST API` `Docker` `docker-compose` `AWS` `pytest` __
 
 ## Pet Projects
 
