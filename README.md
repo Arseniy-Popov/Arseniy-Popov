@@ -5,17 +5,21 @@ __`Python` `Django` `Django REST Framework` `Flask` `SQL` `Git` `Linux` `Docker`
 
 ## Pet Projects
 
-### 1. Social network for blogging: [ThePost](https://github.com/Arseniy-Popov/ThePost)
+### Blogging social network: [ThePost](https://github.com/Arseniy-Popov/ThePost)
 __`Python` `Django` `PostgreSQL` `pytest` `Docker` `docker-compose` `AWS EC2` `gunicorn` `nginx`__
 - Generic social network with users, posts, comments on posts, subscribing to users, and feeds of posts of followed users.
 - Built with `Python`, `Django`, and `PostgreSQL`; tested with `pytest`.
 - Deployed to [thepost.arseniypopov.com](http://thepost.arseniypopov.com/) with `AWS EC2`, `gunicorn`, and `nginx`; containerized with `Docker` and `docker-compose`.
 
-### 2. Backend API powering a Telegram bot with a weather forecast for the day: [TodayWeatherBot](https://github.com/Arseniy-Popov/TodayWeatherBot)
+### Ratings database API: [RatingDB](https://github.com/Arseniy-Popov/RatingDB)  
+__`Python` `Django` `Django REST` `PostgreSQL` `pytest` `Docker` `docker-compose` `AWS EC2` `gunicorn` `nginx`__
+- API for a database of titles (characterised by categories and genres), users with roles and permissions, reviews on and ratings of titles, and comments on reviews. Documented at [redoc](http://api.rating-db.arseniypopov.com/docs/redoc.html) / [swagger](http://api.rating-db.arseniypopov.com/docs/swagger.html).
+- Built with `Python`, `Django REST Framework`, and `PostgreSQL`; tested with `pytest`.
+- Deployed to [api.rating-db.arseniypopov.com](http://api.rating-db.arseniypopov.com/api/v1/) with `AWS EC2`, `gunicorn`, and `nginx`; containerized with `Docker` and `docker-compose`.
+
+### Backend API powering a weather forecast Telegram bot: [TodayWeatherBot](https://github.com/Arseniy-Popov/TodayWeatherBot)
 __`Python` `Flask` `PostgreSQL` `SQLAlchemy` `pytest` `unittest` `Google Geocoding API` `OpenWeatherMap API` `Docker` `docker-compose` `AWS EC2` `Heroku` `marshmallow` `python-telegram-bot` `pyrogram` `gunicorn` `nginx`__
-* Returns a weather forecast for the remainder of the current day in response to a free form address input.
-* The backend API, at [api.today-weather.arseniypopov.com](http://api.today-weather.arseniypopov.com), is documented in [redoc](http://api.today-weather.arseniypopov.com/docs/redoc.html) and [swagger](http://api.today-weather.arseniypopov.com/docs/swagger.html) (interactive) formats. Returns a weather forecast in response to a free form address input or a reference to a saved locality.
-* The telegram bot, at [TodayWeatherBot](https://t.me/AMP_TodayWeatherBot), feeds off the backend API, and supports free form address input, setting a default locality, and requesting forecasts for latest and default localities.
+* The backend API is at [api.today-weather.arseniypopov.com](http://api.today-weather.arseniypopov.com), is documented at [redoc](http://api.today-weather.arseniypopov.com/docs/redoc.html) / [swagger](http://api.today-weather.arseniypopov.com/docs/swagger.html), and returns a weather forecast for the remainder of the current day in response to a free form address input. The telegram bot, at [TodayWeatherBot](https://t.me/AMP_TodayWeatherBot), feeds off the backend API.
 * Built with `Flask` as a web framework and `marshmallow` for object serialization; utilizes `Google Geocoding API` to interpret free-form address input and `OpenWeatherMap API` to obtain weather forecasts; uses `PostgreSQL` for storing localities and caching the mapping from free-form address inputs to localities with `SQLAlchemy` as an ORM; tested with `pytest`;deployed to `AWS EC2` with `nginx` and `gunicorn`; containerized with `Docker` and `docker-compose`.
 * The bot is deployed to `Heroku`; built with `python-telegram-bot` as a wrapper around Telegram's API; uses `PostgreSQL` and `SQLAlchemy` for storing user's latest and default addresses; tested with `unittest`.
 
