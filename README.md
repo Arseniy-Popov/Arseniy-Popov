@@ -1,6 +1,6 @@
 ## About Me
 
-Python Backend Software Developer looking for Junior/Middle-level positions.  
+Python Backend Software Developer.  
 __`Python` `Django` `Django REST` `Flask` `SQL` `Git` `Linux` `Docker` `AWS`__  
 
 ## Pet Projects
