@@ -3,7 +3,7 @@
 Python Backend Software Developer.  
 __`Python` `Django` `Django REST` `Flask` `SQLAlchemy` `pytest` `SQL` `Git` `Linux` `Docker`__  
 
-## Pet Projects
+## Practice Projects
 
 ### Blogging social network: [ThePost](https://github.com/Arseniy-Popov/ThePost)
 __`Django` `pytest`__
